@@ -1,3 +1,567 @@
-<body>
-<h1> hello </h1>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>(Th)inking with Data</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/main.css" >
+
+  </head>
+  <body>
+      <div class="intro-header">
+          <!-- <div id="titleHead"> GRAPHIES </div> -->
+        </div>
+    <div id='container'>
+
+        <div id='navbar'> 
+          <a href='#systemFeatures'><div class='item'>Features</div> </a>
+          <a href='#study'><div class='item'>Study</div> </a>
+          <a href='#studyResults'><div class='item'>Study Results</div> </a>
+          <!-- <div class='item'></div> -->
+
+        </div>
+
+
+        <div id='header'>AI-Instruments: Embodying Prompts as Instruments to Abstract &
+            Reflect Graphical Interface Commands as General-Purpose Tools </div>
+
+
+        <div id='authors'>Nathalie Henry Riche, Anna Offenwanger, Frederic Gmeiner, David Brown, Hugo Romat, Michel Pahud, Micolai Marquardt, Kori Inkpen, Ken Hinckley</div>
+
+        <div id='abstract'> 
+            
+            Chat-based prompts respond with verbose linear-sequential texts,
+making it difficult to explore and refine ambiguous intents, back
+up and reinterpret, or shift directions in creative AI-assisted design
+work. AI-Instruments instead embody “prompts” as interface objects
+via three key principles: (1) Reification of user-intent as reusable
+direct-manipulation instruments; (2) Reflection of multiple interpre-
+tations of ambiguous user-intents (Reflection-in-intent) as well as
+the range of AI-model responses (Reflection-in-response) to inform
+design "moves" towards a desired result; and (3) Grounding to in-
+stantiate an instrument from an example, result, or extrapolation
+directly from another instrument. Further, AI-Instruments leverage
+LLM’s to suggest, vary, and refine new instruments, enabling a
+system that goes beyond hard-coded functionality by generating
+its own instrumental controls from content. We demonstrate four
+technology probes, applied to image generation, and qualitative
+insights from twelve participants, showing how AI-Instruments
+address challenges of intent formulation, steering via direct manip-
+ulation, and non-linear iterative workflows to reflect and resolve
+ambiguous intents.    
+        </div>
+
+
+        <!-- <div id='systemFeatures' class='title'> 
+            System features
+        </div>
+
+
+        <div id='mosaic' class='tools'>
+
+                <div class='group'>
+                        <div class='icon'>
+                                <p><img src="assets/img/highlight.png" alt=""></p>
+                            </div>
+                        <div class='nameIcon' >
+                                Highlight 
+                        </div>
+                      
+                </div>
+            <div class='group content'>
+                  
+                
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/highlightprefix.mp4" type="video/mp4">
+                        I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/highlightpostfix.mp4" type="video/mp4">
+                        I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+                
+            </div>
+
+
+                     
+            <div class='group'>
+                    <div class='icon'>
+                            <p><img src="assets/img/paint.png" alt=""></p>
+                        </div>
+                    <div class='nameIcon' >
+                            Paint 
+                        </div>
+                       
+                    </div>
+            <div class='group content'>
+                  
+                
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/paintprefix.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/paintpostfix.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+              
+            </div>
+
+
+            
+            <div class='group'>
+                    <div class='icon'>
+                            <p><img  src="assets/img/cut.png" alt=""></p>
+                        </div>
+                    <div class='nameIcon' >
+                            Cut 
+                        </div>
+                    </div>
+
+            <div class='group content'>
+                   
+                
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/cutprefix.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+              
+            </div>
+
+
+            <div class='group'>
+                    <div class='icon'>
+                            <p><img  src="assets/img/copy.png" alt=""></p>
+                        </div>
+                    <div class='nameIcon' >
+                            Copy 
+                        </div>
+                    </div>
+
+            <div class='group content'>
+                   
+               
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/copyprefix.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+              
+            </div>
+
+
+
+            <div class='group'>
+                    <div class='icon'>
+                            <p><img  src="assets/img/hide.png" alt=""></p>
+                        </div>
+                    <div class='nameIcon' >
+                            Hide 
+                        </div>
+                    </div>
+            <div class='group content'>
+             
+               
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/hideprefix.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/hidepostfix.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+              
+            </div>
+
+
+            
+            <div class='group'>
+                    <div class='icon'>
+                            <p><img  src="assets/img/remove.png" alt=""></p>
+                        </div>
+                    <div class='nameIcon' >
+                            Remove 
+                        </div>
+                    </div>
+            <div class='group content'>
+             
+                
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/removeprefix.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/removepostfix.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+              
+            </div>
+
+
+
+            <div class='group'>
+                    <div class='icon'>
+                            <p><img  src="assets/img/clear.png" alt=""></p>
+                        </div>
+                    <div class='nameIcon' >
+                            Clear 
+                        </div>
+                    </div>
+            <div class='group content'>
+            
+               
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/clearprefix.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+              
+            </div>
+
+            
+
+
+
+              
+            <div class='group'>
+                    <div class='icon'>
+                            <p><img  src="assets/img/label.png" alt=""></p>
+                        </div>
+                    <div class='nameIcon' >
+                            Label 
+                        </div>
+                    </div>
+            <div class='group content'>
+               
+               
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/labelprefix.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/labelpostfix.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+              
+            </div>
+
+
+
+
+
+            <div class='group'>
+                    <div class='icon'>
+                            <p><img   style='  width: 50px;' src="assets/img/regression.png" alt=""></p>
+                        </div>
+                    <div class='nameIcon' >
+                            Compute Statistics
+                        </div>
+                    </div>
+            <div class='group content'>
+         
+                
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/regression.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+              
+            </div>
+
+
+
+
+
+
+            <div class='group'>
+                    <div class='icon'>
+                            <p><img   style='  width: 50px'   src="assets/img/text.png" alt=""></p>
+                        </div>
+                    <div class='nameIcon' >
+                            Recognize Ink Content
+                        </div>
+                    </div>
+            <div class='group content'>
+             
+                
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/text.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+              
+            </div>
+
+
+            <div class='group'>
+                    <div class='icon'>
+                            <p><img   style='  width: 50px'   src="assets/img/changeData.png" alt=""></p>
+                        </div>
+                <div class='nameIcon' >
+                    Change and Edit Underlying Data
+                </div>
+            </div>
+            <div class='group content'>
+                    
+               
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/changeData.MP4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+              
+            </div>
+
+
+
+
+
+
+ <div class='group'>
+        <div class='icon'>
+                <p><img style='  width: 50px;' src="assets/img/inkLens.svg" alt=""></p>
+            </div>
+                <div class='nameIcon' >
+                        Ink Lens
+                </div>
+            </div>
+
+            <div class='group content'>
+                   
+               
+                <div class='subgroup'>
+                    <video controls="">
+                        <source src="assets/img/lens.mp4" type="video/mp4">
+                          I'm sorry; your browser doesn't support HTML5 video in WebM with VP8/VP9 or MP4 with H.264.
+                    </video>
+                </div>
+              
+            </div>
+
+
+
+        </div>
+
+
+
+        <div id='study' class='title'> 
+            Study
+        </div>
+
+
+
+        <div id='mosaic'>
+          <div class='group'>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p1-ink.svg" target='_blank'><img width=300 src="assets/img/screenshot/p1-ink.svg" alt=""></a></p>
+                  <div>P1- Inking</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p1-pre.png" target='_blank'><img width=300 src="assets/img/screenshot/p1-pre.png"></a></p>
+                  <div>P1- Prefix</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p1-post.svg" target='_blank'><img width=300 src="assets/img/screenshot/p1-post.svg"/></a></p>
+                  <div>P1- Postfix</div>
+              </div>
+          </div>
+
+
+
+          <div class='group'>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p2-ink.svg" target='_blank'><img width=300 src="assets/img/screenshot/p2-ink.svg" alt=""></a></p>
+                  <div>P2- Inking</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p2-pre.svg" target='_blank'><img width=300 src="assets/img/screenshot/p2-pre.svg"></a></p>
+                  <div>P2- Prefix</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p2-post.svg" target='_blank'><img width=300 src="assets/img/screenshot/p2-post.svg"/></a></p>
+                  <div>P2- Postfix</div>
+              </div>
+          </div>
+
+          <div class='group'>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p3-ink.png" target='_blank'><img width=300 src="assets/img/screenshot/p3-ink.png" alt=""></a></p>
+                  <div>P3- Inking</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p3-pre.svg" target='_blank'><img width=300 src="assets/img/screenshot/p3-pre.svg"></a></p>
+                  <div>P3- Prefix</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p3-post.svg" target='_blank'><img width=300 src="assets/img/screenshot/p3-post.svg"/></a></p>
+                  <div>P3- Postfix</div>
+              </div>
+          </div>
+
+          <div class='group'>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p4-ink.svg" target='_blank'><img width=300 src="assets/img/screenshot/p4-ink.svg" alt=""></a></p>
+                  <div>P4- Inking</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p4-pre.svg" target='_blank'><img width=300 src="assets/img/screenshot/p4-pre.svg"></a></p>
+                  <div>P4- Prefix</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p4-post.svg" target='_blank'><img width=300 src="assets/img/screenshot/p4-post.svg"/></a></p>
+                  <div>P4- Postfix</div>
+              </div>
+          </div>
+
+          <div class='group'>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p5-ink.svg" target='_blank'><img width=300 src="assets/img/screenshot/p5-ink.svg" alt=""></a></p>
+                  <div>P5- Inking</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p5-pre.svg" target='_blank'><img width=300 src="assets/img/screenshot/p5-pre.svg"></a></p>
+                  <div>P5- Prefix</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p5-post.svg" target='_blank'><img width=300 src="assets/img/screenshot/p5-post.svg"/></a></p>
+                  <div>P5- Postfix</div>
+              </div>
+          </div>
+          <div class='group'>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p6-ink.svg" target='_blank'><img width=300 src="assets/img/screenshot/p6-ink.svg" alt=""></a></p>
+                  <div>P6- Inking</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p6-pre.svg" target='_blank'><img width=300 src="assets/img/screenshot/p6-pre.svg"></a></p>
+                  <div>P6- Prefix</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p6-post.svg" target='_blank'><img width=300 src="assets/img/screenshot/p6-post.svg"/></a></p>
+                  <div>P6- Postfix</div>
+              </div>
+          </div>
+
+          <div class='group'>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p7-ink.svg" target='_blank'><img width=300 src="assets/img/screenshot/p7-ink.svg" alt=""></a></p>
+                  <div>P7- Inking</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p7-pre.svg" target='_blank'><img width=300 src="assets/img/screenshot/p7-pre.svg"></a></p>
+                  <div>P7- Prefix</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p7-post.svg" target='_blank'><img width=300 src="assets/img/screenshot/p7-post.svg"/></a></p>
+                  <div>P7- Postfix</div>
+              </div>
+          </div>
+
+          <div class='group'>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p8-ink.svg" target='_blank'><img width=300 src="assets/img/screenshot/p8-ink.svg" alt=""></a></p>
+                  <div>P8- Inking</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p8-pre-1.svg" target='_blank'><img width=300 src="assets/img/screenshot/p8-pre-1.svg"></a></p>
+                  <div>P8- Prefix</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p8-pre-2.svg" target='_blank'><img width=300 src="assets/img/screenshot/p8-pre-2.svg"></a></p>
+                  <div>P8- Prefix</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p8-post-1.svg" target='_blank'><img width=300 src="assets/img/screenshot/p8-post-1.svg"/></a></p>
+                  <div>P8- Postfix</div>
+              </div>
+              <div class='subgroup'>
+                  <p><a href="assets/img/screenshot/p8-post-2.svg" target='_blank'><img width=300 src="assets/img/screenshot/p8-post-2.svg"/></a></p>
+                  <div>P8- Postfix</div>
+              </div>
+
+          </div>
+
+
+
+
+        </div>
+
+
+
+        <div id='studyResults' class='title'> 
+            Study Results
+        </div>
+
+        
+        <div id='mosaic'>
+            <div class='group'>
+                <div class='subgroup results'>
+                    <p><a href="assets/img/studyResults/Likert Data.svg" target='_blank'><img src="assets/img/studyResults/Likert Data.svg" alt=""></a></p>
+                    <div>Subjective experience responses by participants across conditions.</div>
+                </div>
+            </div>
+        </div>
+
+        <div id='mosaic'>
+            <div class='group'>
+                <div class='subgroup results'>
+                    <p><a href="assets/img/studyResults/pen-colors.svg" target='_blank'><img src="assets/img/studyResults/pen-colors.svg" alt=""></a></p>
+                    <div>Ink colors used by participants across conditions. Each block reflects a 15 minute analysis task.</div>
+                </div>
+            </div>
+        </div>
+
+        <div id='mosaic'>
+            <div class='group'>
+                <div class='subgroup results'>
+                    <a href="assets/img/studyResults/Study Protocol.pdf" target='_blank'>
+                    <div>Protocol</div></a>
+                </div>
+                <div class='subgroup results'>
+                    <a href="assets/img/studyResults/Survey Data.xlsx" target='_blank'>
+                    <div>Questionnaires</div></a>
+                </div>
+            </div>
+        </div>
+ -->
+
+
+
+
+
+    </div>
+    
+
+
+
+  </body>

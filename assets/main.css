@@ -1,0 +1,123 @@
+body{
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    margin: 0;
+    font-weight: 250;
+    margin-bottom: 100px;
+}
+.subgroup div{
+    font-size: 51px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#authors{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 200;
+    line-height: 30px;
+}
+#container{
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 10%;
+    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.icon img{
+    width: 100px;
+    margin-top: -50%;
+}
+video{
+    width: 100%;
+}
+#abstract{
+    text-align: justify;
+    width: 60%;
+    max-width: 800px;
+    margin-top: 30px;
+}
+#header{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.content{
+    margin-top: 0px;
+}
+.subgroup{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+.subgroup img{
+    width: 100%;
+}
+#mosaic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subgroup div{
+    text-align: center;
+}
+.intro-header {
+
+    background: url(img/teaser.png);
+    background-size: 100%;
+    background-position-y: -150px;
+    background-repeat: no-repeat;
+    height: 400px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    object-fit: cover;
+}
+
+.title{
+    margin-top: 80px;
+    font-size: 30px;
+}
+.results a{
+    text-decoration:none;
+    color: black;
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+}
+#navbar a{
+    text-decoration:none;
+    color: black;
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar .item{
+    /* margin: 10px; */
+}
+
+.tools .group{
+    justify-content: left;
+}
+.tools{
+    margin-left: 20%;
+}
+.results{
+    width: 100%;
+}
