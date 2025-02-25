@@ -1,5 +1,5 @@
 body{
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     margin: 0;
     font-weight: 250;
     margin-bottom: 100px;
@@ -17,7 +17,7 @@ body{
     line-height: 30px;
 }
 #container{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 80%;
     margin-left: 10%;
     /* display: flex; */
@@ -55,7 +55,7 @@ video{
 }
 
 .content{
-    margin-top: 0px;
+    margin-top: 20px;
 }
 .subgroup{
     width:20%;
@@ -79,7 +79,7 @@ video{
 
     background: url(img/teaser.png);
     background-size: 100%;
-    background-position-y: -150px;
+    /* background-position-y: -150px; */
     background-repeat: no-repeat;
     height: 400px;
     overflow-y: hidden;
